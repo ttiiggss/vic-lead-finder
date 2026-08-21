@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+data/leads.db
+data/boundaries/*.zip
+data/boundaries/POA_2021/
+output/*.csv
