@@ -1,0 +1,16 @@
+"""Config constants for VIC Lead Finder."""
+
+NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
+OVERPASS_URLS = [
+    "https://overpass-api.de/api/interpreter",  # primary, most reliable
+    "https://overpass.kumi.systems/api/interpreter",  # fallback mirror (can be flaky)
+]
+
+USER_AGENT = "vic-lead-finder/0.1 (personal business tooling; non-commercial research use)"
+
+# Nominatim usage policy: max 1 request/sec, must set a real UA.
+NOMINATIM_RATE_LIMIT_SECONDS = 1.1
+OVERPASS_RATE_LIMIT_SECONDS = 2.0
+
+DEFAULT_STATE = "Victoria"
+DEFAULT_COUNTRY = "Australia"
