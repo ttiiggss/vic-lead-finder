@@ -29,6 +29,8 @@ def load_venues():
 def build_html(venues):
     total_egm = sum(v["egm"] for v in venues if v.get("egm"))
     reliable_geo = sum(1 for v in venues if v.get("geo") and not v.get("low_confidence_match"))
+    precise_geo = sum(1 for v in venues if v.get("geo") and not v.get("low_confidence_match") and not v.get("approximate_location"))
+    approx_geo = reliable_geo - precise_geo
     lgas = sorted(set(v["lga"] for v in venues))
 
     # Prepare a clean JS-friendly data array
@@ -37,6 +39,10 @@ def build_html(venues):
         geo = v.get("geo") or {}
         low_conf = bool(v.get("low_confidence_match"))
         usable_geo = bool(geo) and not low_conf
+        is_approx = bool(v.get("approximate_location"))
+        addr_text = (geo.get("display_name") or "Address not found") if usable_geo else ("Address unverified \u2014 low-confidence geocode match, excluded from map" if low_conf else "Address not found")
+        if usable_geo and is_approx:
+            addr_text = addr_text + " (map pin is an approximate postcode-area location, not the exact building \u2014 precise geocoding pending)"
         js_rows.append({
             "name": v["name"].title(),
             "lga": v["lga"],
@@ -44,8 +50,9 @@ def build_html(venues):
             "egm": v.get("egm") or 0,
             "lat": geo.get("lat") if usable_geo else None,
             "lon": geo.get("lon") if usable_geo else None,
-            "addr": geo.get("display_name") if usable_geo else ("Address unverified \u2014 low-confidence geocode match, excluded from map" if low_conf else "Address not found"),
+            "addr": addr_text,
             "geocoded": usable_geo,
+            "approx": is_approx,
         })
     js_rows.sort(key=lambda r: (-r["egm"]))
     data_json = json.dumps(js_rows)
@@ -129,7 +136,7 @@ def build_html(venues):
     <div class="stat"><div class="num">{len(venues)}</div><div class="label">Licensed venues</div></div>
     <div class="stat"><div class="num">{total_egm:,}</div><div class="label">Total EGMs</div></div>
     <div class="stat"><div class="num">{len(lgas)}</div><div class="label">Council areas (LGAs)</div></div>
-    <div class="stat"><div class="num">{reliable_geo}/{len(venues)}</div><div class="label">Locations mapped</div></div>
+    <div class="stat"><div class="num">{reliable_geo}/{len(venues)}</div><div class="label">Locations mapped ({approx_geo} approx.)</div></div>
   </div>
 </header>
 
@@ -166,15 +173,18 @@ def build_html(venues):
   release), licensed under
   <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.
   EGM counts are the average number of operating machines reported for June 2026 and are updated
-  by the regulator semi-annually. Venue coordinates were resolved via OpenStreetMap Nominatim
-  geocoding against the venue name and council area, then cross-checked with a name-similarity
-  filter to catch mismatches (e.g. a generic venue name resolving to the wrong same-named venue
-  elsewhere in Melbourne). Rows shown greyed out with "Address unverified" or "Address not found"
-  either failed geocoding or failed the similarity check and are intentionally left off the map
-  rather than risk showing an incorrect location &ndash; verify these independently (e.g. via the
-  venue's own website) before relying on them. This directory reflects licensed gaming machine
-  venues only (hotels/clubs) and does not include Crown Casino, Keno-only, or wagering-only
-  outlets. Compiled {today}.
+  by the regulator semi-annually. That dataset lists venue name and council area only, not street
+  addresses, so addresses/coordinates were separately researched via web search and OpenStreetMap
+  Nominatim geocoding, then cross-checked with a name/address plausibility filter to catch
+  mismatches. Solid-filled markers are precisely geocoded to the venue's street address. Faded,
+  dashed-outline markers show a real, verified street address in the popup/table but are pinned at
+  their postcode area's centroid rather than the exact building, because precise geocoding for
+  that address is still pending (typically due to third-party geocoder rate limits) &ndash; treat
+  the address text as authoritative and the pin position as approximate only for those. Rows
+  marked "Address not found" or "unverified" have no confirmed location at all and are excluded
+  from the map entirely rather than risk showing an incorrect one. This directory reflects
+  licensed gaming machine venues only (hotels/clubs) and does not include Crown Casino, Keno-only,
+  or wagering-only outlets. Compiled {today}.
 </footer>
 
 <script>
@@ -260,8 +270,9 @@ function render() {{
         radius: 6 + Math.min(v.egm / 15, 8),
         color: egmColor(v.egm),
         fillColor: egmColor(v.egm),
-        fillOpacity: 0.75,
-        weight: 1,
+        fillOpacity: v.approx ? 0.35 : 0.75,
+        weight: v.approx ? 1 : 1,
+        dashArray: v.approx ? '3,3' : null,
       }}).addTo(map);
       marker.bindPopup(`<b>${{v.name}}</b><br>${{v.type}} &middot; ${{v.egm}} EGMs<br>${{v.addr}}`);
       markers[idx] = marker;

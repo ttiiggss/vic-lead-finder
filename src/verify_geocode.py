@@ -44,7 +44,7 @@ def main():
             continue
         query_used = rec.get("geo_query_used", "") or ""
 
-        if query_used.startswith("subagent-found address:") or geo.get("type") == "subagent_found":
+        if query_used.startswith("subagent-found address") or geo.get("type") in ("subagent_found", "postcode_centroid"):
             # Trust explicit address-based lookups -- these were sourced from a
             # human-readable web page about this specific venue, not a fuzzy
             # name-only Nominatim search, so the street-address display_name

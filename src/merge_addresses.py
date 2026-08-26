@@ -19,25 +19,34 @@ GEOCODED = Path("data/gaming/geocoded.jsonl")
 USER_AGENT = "vic-lead-finder/0.1 (personal research; gaming venue directory)"
 
 
-def geocode_address(address):
-    try:
-        r = requests.get(
-            "https://nominatim.openstreetmap.org/search",
-            params={"q": f"{address}, Australia", "format": "jsonv2", "limit": 1, "countrycodes": "au"},
-            headers={"User-Agent": USER_AGENT},
-            timeout=15,
-        )
-        r.raise_for_status()
-        data = r.json()
-        if data:
-            d = data[0]
-            return {
-                "lat": float(d["lat"]), "lon": float(d["lon"]),
-                "display_name": d.get("display_name"),
-                "osm_type": d.get("osm_type"), "class": d.get("class"), "type": d.get("type"),
-            }
-    except Exception as e:
-        print(f"  geocode error for {address!r}: {e}", file=sys.stderr)
+def geocode_address(address, retries=3):
+    for attempt in range(retries):
+        try:
+            r = requests.get(
+                "https://nominatim.openstreetmap.org/search",
+                params={"q": f"{address}, Australia", "format": "jsonv2", "limit": 1, "countrycodes": "au"},
+                headers={"User-Agent": USER_AGENT},
+                timeout=15,
+            )
+            r.raise_for_status()
+            data = r.json()
+            if data:
+                d = data[0]
+                return {
+                    "lat": float(d["lat"]), "lon": float(d["lon"]),
+                    "display_name": d.get("display_name"),
+                    "osm_type": d.get("osm_type"), "class": d.get("class"), "type": d.get("type"),
+                }
+            else:
+                # Empty result with 200 status while an identical isolated
+                # query succeeds is a sign of soft rate-limiting by Nominatim
+                # (no 429 given, just an empty body) -- back off hard and retry.
+                wait = 5 * (attempt + 1)
+                print(f"  empty result for {address!r}, backing off {wait}s (attempt {attempt+1}/{retries})", file=sys.stderr)
+                time.sleep(wait)
+        except Exception as e:
+            print(f"  geocode error for {address!r}: {type(e).__name__}: {e}", file=sys.stderr)
+            time.sleep(5)
     return None
 
 
@@ -70,7 +79,7 @@ def main():
             }
         else:
             geo = geocode_address(match["address"])
-            time.sleep(1.1)
+            time.sleep(2.5)  # extra headroom beyond Nominatim's 1 req/sec minimum
 
         if geo:
             rec["geo"] = geo
