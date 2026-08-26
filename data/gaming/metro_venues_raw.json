@@ -1,0 +1,2102 @@
+[
+  {
+    "name": "ABRUZZO CLUB",
+    "region": "Metro",
+    "lga": "City of Merri-bek",
+    "venue_type": "Club",
+    "egm": 55
+  },
+  {
+    "name": "ACES SPORTING CLUB",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Club",
+    "egm": 77
+  },
+  {
+    "name": "ALBION CHARLES HOTEL",
+    "region": "Metro",
+    "lga": "City of Darebin",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "ALBION HOTEL",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Hotel",
+    "egm": 24
+  },
+  {
+    "name": "ALTONA BOWLING CLUB",
+    "region": "Metro",
+    "lga": "City of Hobsons Bay",
+    "venue_type": "Club",
+    "egm": 37
+  },
+  {
+    "name": "ALTONA RSL",
+    "region": "Metro",
+    "lga": "City of Hobsons Bay",
+    "venue_type": "Club",
+    "egm": 58
+  },
+  {
+    "name": "ALTONA SPORTS CLUB",
+    "region": "Metro",
+    "lga": "City of Hobsons Bay",
+    "venue_type": "Club",
+    "egm": 83
+  },
+  {
+    "name": "AMSTEL GOLF CLUB",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Club",
+    "egm": 79
+  },
+  {
+    "name": "ANGEL TAVERN",
+    "region": "Metro",
+    "lga": "City of Stonnington",
+    "venue_type": "Hotel",
+    "egm": 45
+  },
+  {
+    "name": "ASHLEY HOTEL",
+    "region": "Metro",
+    "lga": "City of Maribyrnong",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "BAKERS ARMS HOTEL",
+    "region": "Metro",
+    "lga": "City of Yarra",
+    "venue_type": "Hotel",
+    "egm": 32
+  },
+  {
+    "name": "BALACLAVA HOTEL",
+    "region": "Metro",
+    "lga": "City of Port Phillip",
+    "venue_type": "Hotel",
+    "egm": 45
+  },
+  {
+    "name": "BAXTER TAVERN HOTEL MOTEL",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Hotel",
+    "egm": 45
+  },
+  {
+    "name": "BAYSWATER HOTEL",
+    "region": "Metro",
+    "lga": "City of Knox",
+    "venue_type": "Hotel",
+    "egm": 80
+  },
+  {
+    "name": "BELL'S HOTEL",
+    "region": "Metro",
+    "lga": "City of Port Phillip",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "BENTLEIGH RSL",
+    "region": "Metro",
+    "lga": "City of Glen Eira",
+    "venue_type": "Club",
+    "egm": 90
+  },
+  {
+    "name": "BERWICK INN TAVERNER",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Hotel",
+    "egm": 63
+  },
+  {
+    "name": "BERWICK SPRINGS HOTEL",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Hotel",
+    "egm": 105
+  },
+  {
+    "name": "BLACKBURN HOTEL",
+    "region": "Metro",
+    "lga": "City of Whitehorse",
+    "venue_type": "Hotel",
+    "egm": 66
+  },
+  {
+    "name": "BLEAKHOUSE HOTEL",
+    "region": "Metro",
+    "lga": "City of Port Phillip",
+    "venue_type": "Hotel",
+    "egm": 32
+  },
+  {
+    "name": "BORONIA CLUB HOTEL",
+    "region": "Metro",
+    "lga": "City of Knox",
+    "venue_type": "Hotel",
+    "egm": 80
+  },
+  {
+    "name": "BOUNDARY TAVERNER",
+    "region": "Metro",
+    "lga": "City of Glen Eira",
+    "venue_type": "Hotel",
+    "egm": 75
+  },
+  {
+    "name": "BOURKE HILL'S WELCOME STRANGER",
+    "region": "Metro",
+    "lga": "City of Melbourne",
+    "venue_type": "Hotel",
+    "egm": 99
+  },
+  {
+    "name": "BOX HILL GOLF CLUB",
+    "region": "Metro",
+    "lga": "City of Whitehorse",
+    "venue_type": "Club",
+    "egm": 39
+  },
+  {
+    "name": "BOX HILL RSL",
+    "region": "Metro",
+    "lga": "City of Whitehorse",
+    "venue_type": "Club",
+    "egm": 103
+  },
+  {
+    "name": "BRAYBROOK HOTEL",
+    "region": "Metro",
+    "lga": "City of Maribyrnong",
+    "venue_type": "Hotel",
+    "egm": 45
+  },
+  {
+    "name": "BRIDGE INN HOTEL",
+    "region": "Metro",
+    "lga": "City of Whittlesea",
+    "venue_type": "Hotel",
+    "egm": 60
+  },
+  {
+    "name": "BRIGHTON BEACH HOTEL",
+    "region": "Metro",
+    "lga": "City of Bayside",
+    "venue_type": "Hotel",
+    "egm": 48
+  },
+  {
+    "name": "BROADMEADOWS SPORTING CLUB",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Club",
+    "egm": 55
+  },
+  {
+    "name": "BROWNS CORNER",
+    "region": "Metro",
+    "lga": "City of Merri-bek",
+    "venue_type": "Hotel",
+    "egm": 35
+  },
+  {
+    "name": "BUNDOORA TAVERNER",
+    "region": "Metro",
+    "lga": "City of Whittlesea",
+    "venue_type": "Hotel",
+    "egm": 96
+  },
+  {
+    "name": "BURVALE HOTEL",
+    "region": "Metro",
+    "lga": "City of Whitehorse",
+    "venue_type": "Hotel",
+    "egm": 73
+  },
+  {
+    "name": "CARDINIA CLUB",
+    "region": "Metro",
+    "lga": "Shire of Cardinia",
+    "venue_type": "Club",
+    "egm": 105
+  },
+  {
+    "name": "CARDINIA PARK HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Cardinia",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "CASA D'ABRUZZO CLUB",
+    "region": "Metro",
+    "lga": "City of Whittlesea",
+    "venue_type": "Club",
+    "egm": 75
+  },
+  {
+    "name": "CASTELLO'S CARDINIA HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Cardinia",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "CAULFIELD GLASSHOUSE",
+    "region": "Metro",
+    "lga": "City of Glen Eira",
+    "venue_type": "Club",
+    "egm": 105
+  },
+  {
+    "name": "CAULFIELD RSL",
+    "region": "Metro",
+    "lga": "City of Glen Eira",
+    "venue_type": "Club",
+    "egm": 52
+  },
+  {
+    "name": "CENTRAL POINT MELBOURNE",
+    "region": "Metro",
+    "lga": "City of Melbourne",
+    "venue_type": "Club",
+    "egm": 76
+  },
+  {
+    "name": "CENTURY CITY WALK",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Hotel",
+    "egm": 65
+  },
+  {
+    "name": "CHELSEA HEIGHTS HOTEL",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "THE CHELTENHAM CLUB",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Club",
+    "egm": 41
+  },
+  {
+    "name": "CHERRY HILL HOTEL",
+    "region": "Metro",
+    "lga": "City of Manningham",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "CHIRNSIDE PARK COUNTRY CLUB",
+    "region": "Metro",
+    "lga": "Shire of Yarra Ranges",
+    "venue_type": "Club",
+    "egm": 37
+  },
+  {
+    "name": "CLAYTON BOWLS CLUB",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Club",
+    "egm": 29
+  },
+  {
+    "name": "CLAYTON RSL",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Club",
+    "egm": 71
+  },
+  {
+    "name": "CLOCKS AT FLINDERS STREET STATION",
+    "region": "Metro",
+    "lga": "City of Melbourne",
+    "venue_type": "Club",
+    "egm": 105
+  },
+  {
+    "name": "CLUB HOTEL (FERNTREE GULLY)",
+    "region": "Metro",
+    "lga": "City of Knox",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "CLUB ITALIA SPORTING CLUB",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Club",
+    "egm": 60
+  },
+  {
+    "name": "CLUB KILSYTH",
+    "region": "Metro",
+    "lga": "City of Maroondah",
+    "venue_type": "Club",
+    "egm": 105
+  },
+  {
+    "name": "CLUB LAVERTON",
+    "region": "Metro",
+    "lga": "City of Hobsons Bay",
+    "venue_type": "Club",
+    "egm": 60
+  },
+  {
+    "name": "CLUB LEEDS",
+    "region": "Metro",
+    "lga": "City of Maribyrnong",
+    "venue_type": "Club",
+    "egm": 30
+  },
+  {
+    "name": "CLUB OFFICER",
+    "region": "Metro",
+    "lga": "Shire of Cardinia",
+    "venue_type": "Club",
+    "egm": 60
+  },
+  {
+    "name": "CLUB RINGWOOD",
+    "region": "Metro",
+    "lga": "City of Maroondah",
+    "venue_type": "Club",
+    "egm": 82
+  },
+  {
+    "name": "CLUB TARNEIT",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Club",
+    "egm": 70
+  },
+  {
+    "name": "COMMERCIAL TAVERNER",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Hotel",
+    "egm": 75
+  },
+  {
+    "name": "COOLAROO TAVERNER",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Hotel",
+    "egm": 47
+  },
+  {
+    "name": "COURT HOUSE HOTEL (FOOTSCRAY)",
+    "region": "Metro",
+    "lga": "City of Maribyrnong",
+    "venue_type": "Hotel",
+    "egm": 21
+  },
+  {
+    "name": "COURT JESTER HOTEL",
+    "region": "Metro",
+    "lga": "City of Stonnington",
+    "venue_type": "Hotel",
+    "egm": 48
+  },
+  {
+    "name": "CRAIGIEBURN SPORTING CLUB",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Club",
+    "egm": 70
+  },
+  {
+    "name": "CRAMERS HOTEL",
+    "region": "Metro",
+    "lga": "City of Darebin",
+    "venue_type": "Hotel",
+    "egm": 79
+  },
+  {
+    "name": "CRANBOURNE SILKS",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Club",
+    "egm": 50
+  },
+  {
+    "name": "CROSS KEYS HOTEL",
+    "region": "Metro",
+    "lga": "City of Moonee Valley",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "CROWN HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Yarra Ranges",
+    "venue_type": "Hotel",
+    "egm": 68
+  },
+  {
+    "name": "CROXTON PARK HOTEL",
+    "region": "Metro",
+    "lga": "City of Darebin",
+    "venue_type": "Hotel",
+    "egm": 54
+  },
+  {
+    "name": "CROYDON HOTEL",
+    "region": "Metro",
+    "lga": "City of Maroondah",
+    "venue_type": "Hotel",
+    "egm": 105
+  },
+  {
+    "name": "DANDENONG CLUB",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Club",
+    "egm": 103
+  },
+  {
+    "name": "DANDENONG RSL",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Club",
+    "egm": 63
+  },
+  {
+    "name": "DANDENONG WORKERS SOCIAL CLUB",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Club",
+    "egm": 77
+  },
+  {
+    "name": "DAREBIN RSL",
+    "region": "Metro",
+    "lga": "City of Darebin",
+    "venue_type": "Club",
+    "egm": 65
+  },
+  {
+    "name": "DAVA HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Hotel",
+    "egm": 32
+  },
+  {
+    "name": "DEER PARK CLUB",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Club",
+    "egm": 80
+  },
+  {
+    "name": "DEER PARK HOTEL",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Hotel",
+    "egm": 80
+  },
+  {
+    "name": "DERRIMUT HOTEL",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Hotel",
+    "egm": 55
+  },
+  {
+    "name": "DIAMOND CREEK HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Nillumbik",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "DICK WHITTINGTON TAVERN",
+    "region": "Metro",
+    "lga": "City of Port Phillip",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "DINGLEY INTERNATIONAL HOTEL",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Hotel",
+    "egm": 89
+  },
+  {
+    "name": "DONCASTER HOTEL",
+    "region": "Metro",
+    "lga": "City of Manningham",
+    "venue_type": "Hotel",
+    "egm": 85
+  },
+  {
+    "name": "DORSET GARDENS HOTEL",
+    "region": "Metro",
+    "lga": "City of Maroondah",
+    "venue_type": "Hotel",
+    "egm": 97
+  },
+  {
+    "name": "DROMANA HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Hotel",
+    "egm": 41
+  },
+  {
+    "name": "DRUMS HOTEL",
+    "region": "Metro",
+    "lga": "City of Merri-bek",
+    "venue_type": "Hotel",
+    "egm": 75
+  },
+  {
+    "name": "DUKE OF EDINBURGH",
+    "region": "Metro",
+    "lga": "City of Merri-bek",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "EASTWOOD GOLF CLUB",
+    "region": "Metro",
+    "lga": "City of Maroondah",
+    "venue_type": "Club",
+    "egm": 19
+  },
+  {
+    "name": "EDITHVALE - CHELSEA RSL",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Club",
+    "egm": 80
+  },
+  {
+    "name": "EDWARDES LAKE HOTEL",
+    "region": "Metro",
+    "lga": "City of Darebin",
+    "venue_type": "Hotel",
+    "egm": 100
+  },
+  {
+    "name": "ELSTERNWICK HOTEL",
+    "region": "Metro",
+    "lga": "City of Port Phillip",
+    "venue_type": "Hotel",
+    "egm": 28
+  },
+  {
+    "name": "ELTHAM HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Nillumbik",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "EPPING HOTEL",
+    "region": "Metro",
+    "lga": "City of Whittlesea",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "EPPING PLAZA HOTEL",
+    "region": "Metro",
+    "lga": "City of Whittlesea",
+    "venue_type": "Hotel",
+    "egm": 99
+  },
+  {
+    "name": "EPPING RSL",
+    "region": "Metro",
+    "lga": "City of Whittlesea",
+    "venue_type": "Club",
+    "egm": 45
+  },
+  {
+    "name": "ESSENDON FOOTBALL & COMMUNITY SPORTING C",
+    "region": "Metro",
+    "lga": "City of Moonee Valley",
+    "venue_type": "Club",
+    "egm": 100
+  },
+  {
+    "name": "EXCELSIOR HOTEL",
+    "region": "Metro",
+    "lga": "City of Whittlesea",
+    "venue_type": "Hotel",
+    "egm": 90
+  },
+  {
+    "name": "FAWKNER RSL",
+    "region": "Metro",
+    "lga": "City of Merri-bek",
+    "venue_type": "Club",
+    "egm": 33
+  },
+  {
+    "name": "FERNTREE GULLY BOWLING CLUB",
+    "region": "Metro",
+    "lga": "City of Knox",
+    "venue_type": "Club",
+    "egm": 34
+  },
+  {
+    "name": "FERNTREE GULLY HOTEL",
+    "region": "Metro",
+    "lga": "City of Knox",
+    "venue_type": "Hotel",
+    "egm": 49
+  },
+  {
+    "name": "FIRST & LAST HOTEL",
+    "region": "Metro",
+    "lga": "City of Merri-bek",
+    "venue_type": "Hotel",
+    "egm": 64
+  },
+  {
+    "name": "FORESTERS ARMS HOTEL",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Hotel",
+    "egm": 46
+  },
+  {
+    "name": "FOUNTAIN GATE TAVERNER",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Hotel",
+    "egm": 85
+  },
+  {
+    "name": "FRANKSTON RSL",
+    "region": "Metro",
+    "lga": "City of Frankston",
+    "venue_type": "Club",
+    "egm": 82
+  },
+  {
+    "name": "FRECCIA AZZURRA CLUB",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Club",
+    "egm": 35
+  },
+  {
+    "name": "GLADSTONE PARK HOTEL",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Hotel",
+    "egm": 86
+  },
+  {
+    "name": "GLENGALA HOTEL",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "GLENROY RSL",
+    "region": "Metro",
+    "lga": "City of Merri-bek",
+    "venue_type": "Club",
+    "egm": 40
+  },
+  {
+    "name": "GOLDEN FLEECE HOTEL (MELTON)",
+    "region": "Metro",
+    "lga": "Shire of Melton",
+    "venue_type": "Hotel",
+    "egm": 45
+  },
+  {
+    "name": "GOLDEN NUGGET",
+    "region": "Metro",
+    "lga": "City of Melbourne",
+    "venue_type": "Hotel",
+    "egm": 60
+  },
+  {
+    "name": "GRAND HOTEL (FRANKSTON)",
+    "region": "Metro",
+    "lga": "City of Frankston",
+    "venue_type": "Hotel",
+    "egm": 64
+  },
+  {
+    "name": "GRAND HOTEL (MORNINGTON)",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "GREEN GULLY SOCCER CLUB",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Club",
+    "egm": 70
+  },
+  {
+    "name": "SPORTING GLOBE GREENSBOROUGH",
+    "region": "Metro",
+    "lga": "City of Banyule",
+    "venue_type": "Hotel",
+    "egm": 0
+  },
+  {
+    "name": "GREENSBOROUGH RSL",
+    "region": "Metro",
+    "lga": "City of Banyule",
+    "venue_type": "Club",
+    "egm": 72
+  },
+  {
+    "name": "GREYHOUNDS ENTERTAINMENT",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Club",
+    "egm": 93
+  },
+  {
+    "name": "GROSVENOR HOTEL",
+    "region": "Metro",
+    "lga": "City of Port Phillip",
+    "venue_type": "Hotel",
+    "egm": 22
+  },
+  {
+    "name": "HALLAM TAVERNER",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Hotel",
+    "egm": 80
+  },
+  {
+    "name": "HAMPTON PARK TAVERN",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Hotel",
+    "egm": 73
+  },
+  {
+    "name": "HARP OF ERIN HOTEL",
+    "region": "Metro",
+    "lga": "City of Boroondara",
+    "venue_type": "Hotel",
+    "egm": 47
+  },
+  {
+    "name": "HEADQUARTERS TAVERN",
+    "region": "Metro",
+    "lga": "City of Melbourne",
+    "venue_type": "Club",
+    "egm": 80
+  },
+  {
+    "name": "HEALESVILLE RSL",
+    "region": "Metro",
+    "lga": "Shire of Yarra Ranges",
+    "venue_type": "Club",
+    "egm": 46
+  },
+  {
+    "name": "HIGHETT RETURNED & SERVICES CLUB",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Club",
+    "egm": 41
+  },
+  {
+    "name": "HIGHLANDS HOTEL",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Hotel",
+    "egm": 80
+  },
+  {
+    "name": "HIGHPOINT TAVERNER",
+    "region": "Metro",
+    "lga": "City of Maribyrnong",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "HIGHWAYS SANDOWN",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Club",
+    "egm": 90
+  },
+  {
+    "name": "HOPPERS CROSSING CLUB",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Club",
+    "egm": 91
+  },
+  {
+    "name": "HOPPERS CROSSING SPORTS CLUB",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Club",
+    "egm": 55
+  },
+  {
+    "name": "HOTEL 520 ON SAYERS",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Hotel",
+    "egm": 65
+  },
+  {
+    "name": "ITALIAN SPORTS CLUB OF WERRIBEE",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Club",
+    "egm": 70
+  },
+  {
+    "name": "IVANHOE HOTEL",
+    "region": "Metro",
+    "lga": "City of Banyule",
+    "venue_type": "Hotel",
+    "egm": 100
+  },
+  {
+    "name": "JUNCTION HOTEL",
+    "region": "Metro",
+    "lga": "City of Darebin",
+    "venue_type": "Hotel",
+    "egm": 46
+  },
+  {
+    "name": "KARINGAL BOWLING CLUB",
+    "region": "Metro",
+    "lga": "City of Frankston",
+    "venue_type": "Club",
+    "egm": 29
+  },
+  {
+    "name": "KEALBA HOTEL",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Hotel",
+    "egm": 86
+  },
+  {
+    "name": "KEILOR EAST RSL",
+    "region": "Metro",
+    "lga": "City of Moonee Valley",
+    "venue_type": "Club",
+    "egm": 39
+  },
+  {
+    "name": "KEILOR HOTEL",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "KEYSBOROUGH HOTEL",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Hotel",
+    "egm": 89
+  },
+  {
+    "name": "KINGS CREEK HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Hotel",
+    "egm": 33
+  },
+  {
+    "name": "KIRKPATRICKS HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "KNOX CLUB",
+    "region": "Metro",
+    "lga": "City of Knox",
+    "venue_type": "Club",
+    "egm": 100
+  },
+  {
+    "name": "KNOX TAVERN",
+    "region": "Metro",
+    "lga": "City of Knox",
+    "venue_type": "Hotel",
+    "egm": 77
+  },
+  {
+    "name": "KOORINGAL GOLF CLUB",
+    "region": "Metro",
+    "lga": "City of Hobsons Bay",
+    "venue_type": "Club",
+    "egm": 61
+  },
+  {
+    "name": "LALOR BOWLING CLUB",
+    "region": "Metro",
+    "lga": "City of Whittlesea",
+    "venue_type": "Club",
+    "egm": 36
+  },
+  {
+    "name": "LANGWARRIN HOTEL",
+    "region": "Metro",
+    "lga": "City of Frankston",
+    "venue_type": "Hotel",
+    "egm": 62
+  },
+  {
+    "name": "LINCOLNSHIRE ARMS HOTEL",
+    "region": "Metro",
+    "lga": "City of Moonee Valley",
+    "venue_type": "Hotel",
+    "egm": 38
+  },
+  {
+    "name": "LONG BEACH HOTEL",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Hotel",
+    "egm": 49
+  },
+  {
+    "name": "LOWER PLENTY HOTEL",
+    "region": "Metro",
+    "lga": "City of Banyule",
+    "venue_type": "Hotel",
+    "egm": 85
+  },
+  {
+    "name": "LYNBROOK HOTEL",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Hotel",
+    "egm": 55
+  },
+  {
+    "name": "MAC'S HOTEL (MELTON)",
+    "region": "Metro",
+    "lga": "Shire of Melton",
+    "venue_type": "Hotel",
+    "egm": 82
+  },
+  {
+    "name": "MAIL EXCHANGE HOTEL",
+    "region": "Metro",
+    "lga": "City of Melbourne",
+    "venue_type": "Hotel",
+    "egm": 80
+  },
+  {
+    "name": "MALVERNVALE HOTEL",
+    "region": "Metro",
+    "lga": "City of Stonnington",
+    "venue_type": "Hotel",
+    "egm": 30
+  },
+  {
+    "name": "MANHATTAN HOTEL",
+    "region": "Metro",
+    "lga": "City of Maroondah",
+    "venue_type": "Hotel",
+    "egm": 72
+  },
+  {
+    "name": "MANNINGHAM CLUB",
+    "region": "Metro",
+    "lga": "City of Manningham",
+    "venue_type": "Club",
+    "egm": 90
+  },
+  {
+    "name": "MATTHEW FLINDERS TAVERNER",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Hotel",
+    "egm": 75
+  },
+  {
+    "name": "MCKINNON HOTEL",
+    "region": "Metro",
+    "lga": "City of Glen Eira",
+    "venue_type": "Hotel",
+    "egm": 54
+  },
+  {
+    "name": "MEADOW INN HOTEL",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "MELTON COUNTRY CLUB",
+    "region": "Metro",
+    "lga": "Shire of Melton",
+    "venue_type": "Club",
+    "egm": 90
+  },
+  {
+    "name": "MELTON ENTERTAINMENT PARK",
+    "region": "Metro",
+    "lga": "Shire of Melton",
+    "venue_type": "Club",
+    "egm": 80
+  },
+  {
+    "name": "MENTONE RSL",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Club",
+    "egm": 0
+  },
+  {
+    "name": "MILLERS INN HOTEL",
+    "region": "Metro",
+    "lga": "City of Hobsons Bay",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "MITCHAM HOTEL",
+    "region": "Metro",
+    "lga": "City of Whitehorse",
+    "venue_type": "Hotel",
+    "egm": 60
+  },
+  {
+    "name": "MONASH HOTEL",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Hotel",
+    "egm": 44
+  },
+  {
+    "name": "MONBULK BOWLING CLUB",
+    "region": "Metro",
+    "lga": "Shire of Yarra Ranges",
+    "venue_type": "Club",
+    "egm": 40
+  },
+  {
+    "name": "MONTMORENCY RSL",
+    "region": "Metro",
+    "lga": "City of Banyule",
+    "venue_type": "Club",
+    "egm": 50
+  },
+  {
+    "name": "MOONEE VALLEY RACING CLUB",
+    "region": "Metro",
+    "lga": "City of Moonee Valley",
+    "venue_type": "Club",
+    "egm": 105
+  },
+  {
+    "name": "MORELAND HOTEL",
+    "region": "Metro",
+    "lga": "City of Merri-bek",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "MORNINGTON ON TANTI HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "MOTOR CLUB HOTEL",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Hotel",
+    "egm": 69
+  },
+  {
+    "name": "MOUNTAIN VIEW HOTEL",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Hotel",
+    "egm": 62
+  },
+  {
+    "name": "MULGRAVE COUNTRY CLUB",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Club",
+    "egm": 105
+  },
+  {
+    "name": "MVRC JUNCTION CLUB",
+    "region": "Metro",
+    "lga": "City of Moonee Valley",
+    "venue_type": "Club",
+    "egm": 80
+  },
+  {
+    "name": "MVRC LEIGHOAK CLUB",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Club",
+    "egm": 92
+  },
+  {
+    "name": "NEW BAY HOTEL",
+    "region": "Metro",
+    "lga": "City of Bayside",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "NEWMARKET TAVERN",
+    "region": "Metro",
+    "lga": "City of Moonee Valley",
+    "venue_type": "Hotel",
+    "egm": 68
+  },
+  {
+    "name": "NEWPORT SOCIAL",
+    "region": "Metro",
+    "lga": "City of Hobsons Bay",
+    "venue_type": "Club",
+    "egm": 64
+  },
+  {
+    "name": "NOBLE PARK FOOTBALL SOCIAL CLUB",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Club",
+    "egm": 50
+  },
+  {
+    "name": "NOBLE PARK RSL",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Club",
+    "egm": 35
+  },
+  {
+    "name": "NORTHCOTE PARK FOOTBALL CLUB",
+    "region": "Metro",
+    "lga": "City of Merri-bek",
+    "venue_type": "Club",
+    "egm": 85
+  },
+  {
+    "name": "OAKLEIGH JUNCTION HOTEL",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Hotel",
+    "egm": 45
+  },
+  {
+    "name": "OLD ENGLAND HOTEL",
+    "region": "Metro",
+    "lga": "City of Banyule",
+    "venue_type": "Hotel",
+    "egm": 93
+  },
+  {
+    "name": "OLINDA CREEK HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Yarra Ranges",
+    "venue_type": "Hotel",
+    "egm": 47
+  },
+  {
+    "name": "OLIVE TREE HOTEL",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Hotel",
+    "egm": 43
+  },
+  {
+    "name": "OLYMPIC HOTEL",
+    "region": "Metro",
+    "lga": "City of Darebin",
+    "venue_type": "Hotel",
+    "egm": 80
+  },
+  {
+    "name": "PAKENHAM HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Cardinia",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "PALACE HOTEL",
+    "region": "Metro",
+    "lga": "City of Boroondara",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "PARKVIEW HOTEL",
+    "region": "Metro",
+    "lga": "City of Yarra",
+    "venue_type": "Hotel",
+    "egm": 30
+  },
+  {
+    "name": "PASCOE VALE RSL",
+    "region": "Metro",
+    "lga": "City of Merri-bek",
+    "venue_type": "Club",
+    "egm": 47
+  },
+  {
+    "name": "PASCOE VALE TAVERNER HOTEL",
+    "region": "Metro",
+    "lga": "City of Merri-bek",
+    "venue_type": "Hotel",
+    "egm": 42
+  },
+  {
+    "name": "PENINSULA CLUB",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Club",
+    "egm": 35
+  },
+  {
+    "name": "PIER HOTEL",
+    "region": "Metro",
+    "lga": "City of Frankston",
+    "venue_type": "Hotel",
+    "egm": 58
+  },
+  {
+    "name": "PLAYERS HOTEL",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Hotel",
+    "egm": 25
+  },
+  {
+    "name": "PLAYERS ON LYGON",
+    "region": "Metro",
+    "lga": "City of Melbourne",
+    "venue_type": "Hotel",
+    "egm": 69
+  },
+  {
+    "name": "PLOUGH HOTEL",
+    "region": "Metro",
+    "lga": "City of Whittlesea",
+    "venue_type": "Hotel",
+    "egm": 100
+  },
+  {
+    "name": "POWELL HOTEL",
+    "region": "Metro",
+    "lga": "City of Maribyrnong",
+    "venue_type": "Hotel",
+    "egm": 47
+  },
+  {
+    "name": "PRAHRAN FOOTBALL SOCIAL CLUB",
+    "region": "Metro",
+    "lga": "City of Stonnington",
+    "venue_type": "Club",
+    "egm": 81
+  },
+  {
+    "name": "PRESTON HOTEL",
+    "region": "Metro",
+    "lga": "City of Darebin",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "PRINCE MARK HOTEL",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Hotel",
+    "egm": 79
+  },
+  {
+    "name": "PULLMAN MELBOURNE ON SWANSTON",
+    "region": "Metro",
+    "lga": "City of Melbourne",
+    "venue_type": "Hotel",
+    "egm": 90
+  },
+  {
+    "name": "RACECOURSE HOTEL (MALVERN EAST)",
+    "region": "Metro",
+    "lga": "City of Stonnington",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "RACECOURSE HOTEL (WERRIBEE)",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Hotel",
+    "egm": 52
+  },
+  {
+    "name": "RESERVOIR RSL",
+    "region": "Metro",
+    "lga": "City of Darebin",
+    "venue_type": "Club",
+    "egm": 68
+  },
+  {
+    "name": "RIFLE CLUB HOTEL",
+    "region": "Metro",
+    "lga": "City of Hobsons Bay",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "RINGWOOD RSL",
+    "region": "Metro",
+    "lga": "City of Maroondah",
+    "venue_type": "Club",
+    "egm": 70
+  },
+  {
+    "name": "RIVERSDALE HOTEL",
+    "region": "Metro",
+    "lga": "City of Boroondara",
+    "venue_type": "Hotel",
+    "egm": 42
+  },
+  {
+    "name": "RIVIERA HOTEL",
+    "region": "Metro",
+    "lga": "City of Frankston",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "ROSE SHAMROCK HOTEL",
+    "region": "Metro",
+    "lga": "City of Darebin",
+    "venue_type": "Hotel",
+    "egm": 44
+  },
+  {
+    "name": "ROSEBUD COUNTRY CLUB",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Club",
+    "egm": 30
+  },
+  {
+    "name": "ROSEBUD HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "ROSEBUD RSL",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Club",
+    "egm": 75
+  },
+  {
+    "name": "ROSSTOWN HOTEL",
+    "region": "Metro",
+    "lga": "City of Glen Eira",
+    "venue_type": "Hotel",
+    "egm": 103
+  },
+  {
+    "name": "ROXBURGH PARK HOTEL",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Hotel",
+    "egm": 80
+  },
+  {
+    "name": "ROYAL HOTEL (ESSENDON)",
+    "region": "Metro",
+    "lga": "City of Moonee Valley",
+    "venue_type": "Hotel",
+    "egm": 60
+  },
+  {
+    "name": "ROYAL HOTEL (SUNBURY)",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Hotel",
+    "egm": 31
+  },
+  {
+    "name": "ROYAL OAK HOTEL",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Hotel",
+    "egm": 91
+  },
+  {
+    "name": "ROYAL OAK RICHMOND",
+    "region": "Metro",
+    "lga": "City of Yarra",
+    "venue_type": "Club",
+    "egm": 80
+  },
+  {
+    "name": "RYE HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Hotel",
+    "egm": 30
+  },
+  {
+    "name": "RYE RSL CLUB",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Club",
+    "egm": 60
+  },
+  {
+    "name": "SANCTUARY LAKES HOTEL",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "SANDBELT CLUB HOTEL",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Hotel",
+    "egm": 82
+  },
+  {
+    "name": "SANDOWN PARK HOTEL",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Hotel",
+    "egm": 76
+  },
+  {
+    "name": "SANDRINGHAM HOTEL",
+    "region": "Metro",
+    "lga": "City of Bayside",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "SEAFORD RSL",
+    "region": "Metro",
+    "lga": "City of Frankston",
+    "venue_type": "Club",
+    "egm": 24
+  },
+  {
+    "name": "SEAFORD TAVERNER",
+    "region": "Metro",
+    "lga": "City of Frankston",
+    "venue_type": "Hotel",
+    "egm": 94
+  },
+  {
+    "name": "SHANGHAI CLUB",
+    "region": "Metro",
+    "lga": "City of Melbourne",
+    "venue_type": "Hotel",
+    "egm": 48
+  },
+  {
+    "name": "SHOPPINGTOWN HOTEL",
+    "region": "Metro",
+    "lga": "City of Manningham",
+    "venue_type": "Hotel",
+    "egm": 87
+  },
+  {
+    "name": "SIR HENRY BARKLY HOTEL",
+    "region": "Metro",
+    "lga": "City of Banyule",
+    "venue_type": "Hotel",
+    "egm": 65
+  },
+  {
+    "name": "SKYWAYS TAVERNER",
+    "region": "Metro",
+    "lga": "City of Moonee Valley",
+    "venue_type": "Hotel",
+    "egm": 96
+  },
+  {
+    "name": "SOMERVILLE HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Hotel",
+    "egm": 39
+  },
+  {
+    "name": "SPRINGVALE RSL CLUB",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Club",
+    "egm": 55
+  },
+  {
+    "name": "ST ALBANS HOTEL",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "ST ALBANS SPORTS CLUB",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Club",
+    "egm": 35
+  },
+  {
+    "name": "ST KILDA ARMY & NAVY CLUB",
+    "region": "Metro",
+    "lga": "City of Port Phillip",
+    "venue_type": "Club",
+    "egm": 53
+  },
+  {
+    "name": "ST KILDA FOOTBALL SOCIAL CLUB",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Club",
+    "egm": 83
+  },
+  {
+    "name": "STAMFORD HOTEL",
+    "region": "Metro",
+    "lga": "City of Knox",
+    "venue_type": "Hotel",
+    "egm": 85
+  },
+  {
+    "name": "STEEPLES",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Club",
+    "egm": 85
+  },
+  {
+    "name": "SUGAR GUM HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Melton",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "SUMMERHILL HOTEL",
+    "region": "Metro",
+    "lga": "City of Darebin",
+    "venue_type": "Hotel",
+    "egm": 88
+  },
+  {
+    "name": "SUNBURY BOWLING CLUB",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Club",
+    "egm": 78
+  },
+  {
+    "name": "SUNBURY SOCIAL CLUB",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Club",
+    "egm": 38
+  },
+  {
+    "name": "SUNBURY UNITED SPORTING CLUB",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Club",
+    "egm": 40
+  },
+  {
+    "name": "SUNSHINE CITY CLUB",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Club",
+    "egm": 0
+  },
+  {
+    "name": "SUNSHINE RSL",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Club",
+    "egm": 0
+  },
+  {
+    "name": "SYLVANIA HOTEL",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Hotel",
+    "egm": 75
+  },
+  {
+    "name": "TANKERVILLE ARMS HOTEL",
+    "region": "Metro",
+    "lga": "City of Yarra",
+    "venue_type": "Hotel",
+    "egm": 49
+  },
+  {
+    "name": "TAYLORS LAKES FAMILY HOTEL",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Hotel",
+    "egm": 105
+  },
+  {
+    "name": "TEMPLESTOWE HOTEL",
+    "region": "Metro",
+    "lga": "City of Manningham",
+    "venue_type": "Hotel",
+    "egm": 60
+  },
+  {
+    "name": "TERMINUS HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Yarra Ranges",
+    "venue_type": "Hotel",
+    "egm": 30
+  },
+  {
+    "name": "THE BAY & BRIDGE HOTEL",
+    "region": "Metro",
+    "lga": "City of Port Phillip",
+    "venue_type": "Hotel",
+    "egm": 29
+  },
+  {
+    "name": "388 Sportsbar",
+    "region": "Metro",
+    "lga": "City of Melbourne",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "THE BRIDGE HOTEL",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "THE BROOK ON SNEYDES",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Club",
+    "egm": 80
+  },
+  {
+    "name": "THE BRUNSWICK CLUB",
+    "region": "Metro",
+    "lga": "City of Merri-bek",
+    "venue_type": "Club",
+    "egm": 43
+  },
+  {
+    "name": "The CAMDEN TOWN HOTEL",
+    "region": "Metro",
+    "lga": "City of Glen Eira",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "THE CHASE HOTEL",
+    "region": "Metro",
+    "lga": "City of Whitehorse",
+    "venue_type": "Hotel",
+    "egm": 90
+  },
+  {
+    "name": "THE CLAYTON HOTEL",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Hotel",
+    "egm": 35
+  },
+  {
+    "name": "THE CLUB",
+    "region": "Metro",
+    "lga": "Shire of Melton",
+    "venue_type": "Club",
+    "egm": 66
+  },
+  {
+    "name": "THE COACH AND HORSES",
+    "region": "Metro",
+    "lga": "City of Maroondah",
+    "venue_type": "Club",
+    "egm": 90
+  },
+  {
+    "name": "THE COVE HOTEL",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Hotel",
+    "egm": 53
+  },
+  {
+    "name": "THE ELSTERNWICK CLUB",
+    "region": "Metro",
+    "lga": "City of Glen Eira",
+    "venue_type": "Club",
+    "egm": 0
+  },
+  {
+    "name": "THE EPSOM",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Club",
+    "egm": 62
+  },
+  {
+    "name": "THE INTERNATIONAL",
+    "region": "Metro",
+    "lga": "Shire of Yarra Ranges",
+    "venue_type": "Club",
+    "egm": 80
+  },
+  {
+    "name": "THE MOONEE PONDS CLUB",
+    "region": "Metro",
+    "lga": "City of Moonee Valley",
+    "venue_type": "Club",
+    "egm": 50
+  },
+  {
+    "name": "THE PHOENIX HOTEL",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Hotel",
+    "egm": 50
+  },
+  {
+    "name": "THE PINK HILL HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Cardinia",
+    "venue_type": "Hotel",
+    "egm": 60
+  },
+  {
+    "name": "THE PRINCE OF WALES HOTEL - RICHMOND",
+    "region": "Metro",
+    "lga": "City of Yarra",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "THE REX",
+    "region": "Metro",
+    "lga": "City of Port Phillip",
+    "venue_type": "Club",
+    "egm": 57
+  },
+  {
+    "name": "THE RICHMOND SOCIAL",
+    "region": "Metro",
+    "lga": "City of Yarra",
+    "venue_type": "Hotel",
+    "egm": 31
+  },
+  {
+    "name": "THE ROYAL HOTEL FERNTREE GULLY",
+    "region": "Metro",
+    "lga": "City of Knox",
+    "venue_type": "Hotel",
+    "egm": 69
+  },
+  {
+    "name": "THE SANDS HOTEL",
+    "region": "Metro",
+    "lga": "City of Frankston",
+    "venue_type": "Hotel",
+    "egm": 65
+  },
+  {
+    "name": "THE SETTLEMENT AT CRANBOURNE",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Hotel",
+    "egm": 52
+  },
+  {
+    "name": "THE TIGERS CLUBHOUSE",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Club",
+    "egm": 85
+  },
+  {
+    "name": "THE VALE HOTEL",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Hotel",
+    "egm": 55
+  },
+  {
+    "name": "THE VIC INN",
+    "region": "Metro",
+    "lga": "City of Hobsons Bay",
+    "venue_type": "Club",
+    "egm": 60
+  },
+  {
+    "name": "TOORADIN & DISTRICT SPORTS CLUB",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Club",
+    "egm": 46
+  },
+  {
+    "name": "TOWER HOTEL",
+    "region": "Metro",
+    "lga": "City of Boroondara",
+    "venue_type": "Hotel",
+    "egm": 33
+  },
+  {
+    "name": "TRIOS SPORTS CLUB",
+    "region": "Metro",
+    "lga": "City of Casey",
+    "venue_type": "Club",
+    "egm": 75
+  },
+  {
+    "name": "TUDOR INN HOTEL",
+    "region": "Metro",
+    "lga": "City of Kingston",
+    "venue_type": "Hotel",
+    "egm": 47
+  },
+  {
+    "name": "UPPER YARRA RSL",
+    "region": "Metro",
+    "lga": "Shire of Yarra Ranges",
+    "venue_type": "Club",
+    "egm": 30
+  },
+  {
+    "name": "VEGAS AT WAVERLEY GARDENS",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Club",
+    "egm": 75
+  },
+  {
+    "name": "VENETO CLUB",
+    "region": "Metro",
+    "lga": "City of Manningham",
+    "venue_type": "Club",
+    "egm": 90
+  },
+  {
+    "name": "VILLAGE BELLE HOTEL",
+    "region": "Metro",
+    "lga": "City of Port Phillip",
+    "venue_type": "Hotel",
+    "egm": 31
+  },
+  {
+    "name": "VILLAGE GREEN HOTEL",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Hotel",
+    "egm": 78
+  },
+  {
+    "name": "VINE HOTEL RICHMOND",
+    "region": "Metro",
+    "lga": "City of Yarra",
+    "venue_type": "Hotel",
+    "egm": 26
+  },
+  {
+    "name": "WALTZING MATILDA HOTEL",
+    "region": "Metro",
+    "lga": "City of Greater Dandenong",
+    "venue_type": "Hotel",
+    "egm": 71
+  },
+  {
+    "name": "WANTIRNA CLUB",
+    "region": "Metro",
+    "lga": "City of Knox",
+    "venue_type": "Club",
+    "egm": 97
+  },
+  {
+    "name": "WANTIRNA HILL CLUB",
+    "region": "Metro",
+    "lga": "City of Knox",
+    "venue_type": "Club",
+    "egm": 60
+  },
+  {
+    "name": "WATERGARDENS HOTEL",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Hotel",
+    "egm": 76
+  },
+  {
+    "name": "WATERLOO CUP HOTEL",
+    "region": "Metro",
+    "lga": "City of Moonee Valley",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "WATSONIA RSL",
+    "region": "Metro",
+    "lga": "City of Banyule",
+    "venue_type": "Club",
+    "egm": 103
+  },
+  {
+    "name": "WAVERLEY RSL CLUB",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Club",
+    "egm": 0
+  },
+  {
+    "name": "WERRIBEE PLAZA TAVERN",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Hotel",
+    "egm": 80
+  },
+  {
+    "name": "WERRIBEE RSL",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Club",
+    "egm": 60
+  },
+  {
+    "name": "WEST HEIDELBERG RSL",
+    "region": "Metro",
+    "lga": "City of Banyule",
+    "venue_type": "Club",
+    "egm": 31
+  },
+  {
+    "name": "WEST WATERS HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Melton",
+    "venue_type": "Hotel",
+    "egm": 90
+  },
+  {
+    "name": "WESTEND MARKET HOTEL",
+    "region": "Metro",
+    "lga": "City of Brimbank",
+    "venue_type": "Hotel",
+    "egm": 78
+  },
+  {
+    "name": "WESTERNPORT HOTEL",
+    "region": "Metro",
+    "lga": "Shire of Mornington Peninsula",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "WESTMEADOWS TAVERN",
+    "region": "Metro",
+    "lga": "City of Hume",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "WESTSIDE TAVERNER",
+    "region": "Metro",
+    "lga": "City of Wyndham",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "WHEELERS HILL HOTEL",
+    "region": "Metro",
+    "lga": "City of Monash",
+    "venue_type": "Hotel",
+    "egm": 40
+  },
+  {
+    "name": "WHITTLESEA BOWLS CLUB",
+    "region": "Metro",
+    "lga": "City of Whittlesea",
+    "venue_type": "Club",
+    "egm": 50
+  },
+  {
+    "name": "YARRAVILLE CLUB",
+    "region": "Metro",
+    "lga": "City of Maribyrnong",
+    "venue_type": "Club",
+    "egm": 103
+  },
+  {
+    "name": "YARRAVILLE CLUB CRICKET CLUB",
+    "region": "Metro",
+    "lga": "City of Maribyrnong",
+    "venue_type": "Club",
+    "egm": 76
+  },
+  {
+    "name": "YARRAVILLE-FOOTSCRAY BOWLING CLUB",
+    "region": "Metro",
+    "lga": "City of Maribyrnong",
+    "venue_type": "Club",
+    "egm": 29
+  },
+  {
+    "name": "YORK ON LILYDALE TAVERNER RESORT",
+    "region": "Metro",
+    "lga": "Shire of Yarra Ranges",
+    "venue_type": "Hotel",
+    "egm": 70
+  },
+  {
+    "name": "ZAGAME'S CAULFIELD CLUB HOTEL",
+    "region": "Metro",
+    "lga": "City of Glen Eira",
+    "venue_type": "Hotel",
+    "egm": 100
+  }
+]
