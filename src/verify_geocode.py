@@ -42,11 +42,24 @@ def main():
         geo = rec.get("geo")
         if not geo:
             continue
+        query_used = rec.get("geo_query_used", "") or ""
+
+        if query_used.startswith("subagent-found address:") or geo.get("type") == "subagent_found":
+            # Trust explicit address-based lookups -- these were sourced from a
+            # human-readable web page about this specific venue, not a fuzzy
+            # name-only Nominatim search, so the street-address display_name
+            # is EXPECTED not to contain the venue's own trading name. The
+            # name-token-overlap check is meaningless here and produces false
+            # positives (e.g. "ACES SPORTING CLUB" -> "Springvale Road,
+            # Keysborough" is a CORRECT match with 0% name overlap because
+            # it's just a street address, not a POI name).
+            rec["name_match_similarity"] = None
+            rec["low_confidence_match"] = False
+            continue
+
         sim = similarity(rec["name"], geo.get("display_name"))
-        query_used = rec.get("geo_query_used", "")
-        is_broad_query = query_used and ("melbourne" in query_used.lower() or query_used.strip().upper() == rec["name"].strip().upper())
-        # Flag as low confidence if token overlap is weak, regardless of query type,
-        # since even "first pass" (LGA-qualified) queries can mismatch on generic names.
+        # Only meaningful for name-based Nominatim queries, where the venue's
+        # own name is expected to reappear in the resolved POI's display_name.
         low_conf = sim < 0.34
         rec["name_match_similarity"] = round(sim, 2)
         rec["low_confidence_match"] = low_conf
