@@ -1,2 +1,2 @@
 name,category_label,phone,email,website,address,suburb,postcode,postcode_source,osm_tag,consent_status
-The Potters Garden B&B,AirBNB / Holiday Rental,,,,,,3941,bbox_estimate,tourism=guest_house,not_contacted
+The Potters Garden B&B,AirBNB / Holiday Rental,+61 458 283 285,,http://www.pottersgarden.com.au,"283 Dundas St, Rye VIC 3941",,3941,bbox_estimate,tourism=guest_house,not_contacted
