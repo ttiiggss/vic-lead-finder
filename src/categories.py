@@ -109,8 +109,8 @@ CATEGORIES = {
         "google_type": "corporate_office",
     },
     "airbnb": {
-        "label": "AirBNB / Holiday Rental",
-        "osm_filters": ['tourism=apartment', 'tourism=chalet', 'tourism=guest_house', 'tourism=cottage'],
+        "label": "AirBNB / B&B / Holiday Rental",
+        "osm_filters": ['tourism~"apartment|chalet|guest_house|guesthouse|cottage|bed_and_breakfast"'],
         "google_type": "lodging",
     },
 }
