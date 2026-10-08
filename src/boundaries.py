@@ -2,15 +2,7 @@
 Authoritative Australian postcode boundary lookup using the ABS ASGS
 Postal Areas (POA) 2021 shapefile -- NOT Nominatim's point/bbox guess.
 
-This is the fix for the bbox-spillover problem: OSM/Nominatim has no real
-polygon for AU postcodes (verified: geocode returns a bare Point), so its
-bounding box is a crude heuristic that spills into 15-20 neighbouring
-postcodes for inner-Melbourne areas. The ABS POA shapefile is the official
-government postcode-area boundary and gives us a real polygon for accurate
-point-in-polygon filtering plus a tight bbox for the Overpass query.
-
-Source: https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026/access-and-downloads/digital-boundary-files
-Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Optimized with indexing and single-shape parsing for high-performance lookups.
 """
 from pathlib import Path
 from functools import lru_cache
@@ -33,13 +25,22 @@ def _load_shapefile():
     return shapefile.Reader(str(SHP_PATH))
 
 
+@lru_cache(maxsize=1)
+def _load_and_index_poas():
+    sf = _load_shapefile()
+    # sf.records() only reads DBF metadata (very fast), avoiding heavy shape coordinate parsing
+    poa_index = {rec["POA_CODE21"]: idx for idx, rec in enumerate(sf.records())}
+    return sf, poa_index
+
+
 @lru_cache(maxsize=4000)
 def get_postcode_polygon(postcode: str):
     """Return a shapely geometry for the given 4-digit postcode, or None if not found."""
-    sf = _load_shapefile()
-    for sr in sf.shapeRecords():
-        if sr.record["POA_CODE21"] == postcode:
-            return shape(sr.shape.__geo_interface__)
+    sf, poa_index = _load_and_index_poas()
+    if postcode in poa_index:
+        idx = poa_index[postcode]
+        # sf.shape(idx) parses ONLY the requested shape geometry, which is incredibly fast
+        return shape(sf.shape(idx).__geo_interface__)
     return None
 
 
@@ -61,7 +62,8 @@ def point_in_postcode(lat: float, lon: float, postcode: str) -> bool:
 
 
 def is_valid_postcode(postcode: str) -> bool:
-    return get_postcode_polygon(postcode) is not None
+    sf, poa_index = _load_and_index_poas()
+    return postcode in poa_index
 
 
 if __name__ == "__main__":

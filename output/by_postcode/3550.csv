@@ -1,0 +1,20 @@
+name,category_label,phone,email,website,address,suburb,postcode,postcode_source,osm_tag,consent_status
+Ardor Projects,Builder / General Contractor,,,,,,3550,bbox_estimate,office=construction_company,not_contacted
+Bendigo Complete Auto Care,Car Repair / Mechanic,+61 3 5442 3716,,https://www.bendigocompleteautocare.com.au/,50 Eaglehawk Road,,3550,bbox_estimate,shop=car_repair,not_contacted
+Bendigo Dyno Tuning,Car Repair / Mechanic,+61 3 5441 1866,,https://www.bendigodynotuning.com.au/,4 Wood Street,Long Gully,3550,osm_tag,shop=car_repair,not_contacted
+Goodyear Autocare,Car Repair / Mechanic,,,,43 McIvor Road,,3550,bbox_estimate,shop=car_repair,not_contacted
+Myers Street Auto Repairs,Car Repair / Mechanic,,,https://www.myersstreetauto.com.au/,29-31 Myers Street,Bendigo,3550,osm_tag,shop=car_repair,not_contacted
+Sandhurst Automotive,Car Repair / Mechanic,+61 3 5441 4100,,https://www.sandhurstauto.com/,79 Powells Avenue,East Bendigo,3550,osm_tag,shop=car_repair,not_contacted
+Santons of Bendigo,Car Repair / Mechanic,,,,,,3550,bbox_estimate,shop=car_repair,not_contacted
+Sherlock Mechanical,Car Repair / Mechanic,,,,,,3550,bbox_estimate,shop=car_repair,not_contacted
+Bendigo Smiles,Dentist,,,,,,3550,bbox_estimate,amenity=dentist,not_contacted
+Central Victorian Orthodontics - Bendigo Orthodontist,Dentist,+61 3 5442 1335,,https://www.centralvictorianorthodontics.com.au/,147 St Aidans Road,,3550,bbox_estimate,amenity=dentist,not_contacted
+National Dental Care McCrae Street,Dentist,+61 3 5441 6040,,https://www.nationaldentalcare.com.au/mccrae-street,168 McCrae Street,Bendigo,3550,osm_tag,amenity=dentist,not_contacted
+Whitehills Dental,Dentist,,reception@whitehillsdental.com.au,https://www.whitehillsdental.com.au,47 Napier Street,White Hills,3550,osm_tag,amenity=dentist,not_contacted
+AWM,Electrician,,,,1 Adam Street,,3550,bbox_estimate,shop=electrical,not_contacted
+Bendigo Trailers & Hardware,Hardware Store,+61 3 5443 3769,,,6 Wood Street,Long Gully,3550,osm_tag,shop=hardware,not_contacted
+CV Bearings,Hardware Store,+61 3 5442 8655,,https://www.cvbearings.com.au/,7B Wood Street,Long Gully,3550,osm_tag,shop=hardware,not_contacted
+Delecca's Machine Sales,Hardware Store,,,https://deleccas.com.au/,116-132 Marong Road,,3550,bbox_estimate,shop=hardware,not_contacted
+Mitre 10,Hardware Store,+61 3 5440 7100,,https://www.humeiser.com.au/,35-37 Charleston Road,Bendigo,3550,osm_tag,shop=doityourself,not_contacted
+Reilly's Designer Appliances,Hardware Store,+61 3 5442 1355,reillys@designerappliances.com.au,https://www.reillysdesignerappliances.com.au,119-121 Mitchell Street,Bendigo,3550,osm_tag,shop=hardware,not_contacted
+The Bendigo Lighthouse,Hardware Store,,,,2-4 McIvor Highway,Bendigo,3550,osm_tag,shop=hardware,not_contacted

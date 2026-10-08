@@ -108,6 +108,11 @@ CATEGORIES = {
         "osm_filters": ['office=company', 'office=yes'],
         "google_type": "corporate_office",
     },
+    "airbnb": {
+        "label": "AirBNB / Holiday Rental",
+        "osm_filters": ['tourism=apartment', 'tourism=chalet', 'tourism=guest_house', 'tourism=cottage'],
+        "google_type": "lodging",
+    },
 }
 
 

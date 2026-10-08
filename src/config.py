@@ -2,8 +2,10 @@
 
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 OVERPASS_URLS = [
-    "https://overpass-api.de/api/interpreter",  # primary, most reliable
-    "https://overpass.kumi.systems/api/interpreter",  # fallback mirror (can be flaky)
+    "https://overpass-api.de/api/interpreter",
+    "https://lz4.overpass-api.de/api/interpreter",
+    "https://z.overpass-api.de/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
 ]
 
 USER_AGENT = "vic-lead-finder/0.1 (personal business tooling; non-commercial research use)"
